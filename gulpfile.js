@@ -32,7 +32,7 @@ const path = {
 }
 
 function clean() {
-    return del(['dist/*', '!dist/img', '!dist/icons', '!dist/bootstrap', '!dist/javascript')
+    return del(['dist/*', '!dist/img', '!dist/icons', '!dist/bootstrap', '!dist/javascript', '!dist/slick'])
 }
 
 function styles() {
